@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+nav {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  /* border-bottom: 15px solid green;
+  border-image: url(img/hr-img.png) repeat; */
+  padding-top: 30px;
+}
+
+header > nav > div, header > nav > img  {
+  float: left;
+}
+
+header > nav > img {
+  margin-right: 8px;
+}
+
+div h1, div p {
+  margin: 0px;
+}
+
+header > nav > ul > li:nth-child(3) {
+  margin-right: 8px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+}
+
+main > h1 {
+  font-size: 38px;
+  margin: 0 auto;
+}
+
+main > div > span {
+  color: #aaa;
+}
+
+main > div {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+main > div span:nth-child(2), main > div span:nth-child(3) {
+  float: right;
+}
+
+main > img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+main > p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #999;
+  text-indent: 30px;
+  font-size: 16px;
+}
+
+main > section.recipe > ul {
+  width: 50%;
+  float: left;
+}
