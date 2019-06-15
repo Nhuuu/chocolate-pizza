@@ -18,10 +18,16 @@ nav {
   height: 100%;
   position: absolute;
   width: 100%;
-  /* border-bottom: 15px solid green;
-  border-image: url(img/hr-img.png) repeat; */
+  border-image-source: url(img/hr-img.png);
+  border-image-repeat: repeat;
   padding-top: 30px;
 }
+
+/* hr {
+  height: 10px;
+  background: url(./img/hr-img.png) repeat-x 5px 5px;
+  border: none; 
+} */
 
 header > nav > div, header > nav > img  {
   float: left;
@@ -79,4 +85,81 @@ main > p {
 main > section.recipe > ul {
   width: 50%;
   float: left;
+  margin-top: 40px;
+  padding-left: 80px;
+  margin-bottom: 150px;
+}
+
+main > section.recipe {
+  position: relative;
+  height: 300px;
+}
+
+main > section.recipe > img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  left: 0;
+}
+
+main > section.recipe > ul > li {
+  color: rgb(128, 118, 118);
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main > section.blogger {
+  height: 150px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+main > section.blogger > button {
+  float: right;
+  font-size: 22px;
+  padding: 13px 30px;
+  background-color: rgb(189, 124, 100);
+  color: white;
+}
+
+main > section.blogger > img {
+  float: left;
+  margin-right: 15px;
+}
+
+main > section.blogger > div {
+  display: inline-block;
+}
+
+
+main > section.blogger > div > p {
+  font-size: 16px;
+  color: #999;
+  width: 70%;
+}
+
+main > section.blogger > div > h3 {
+  color: #666;
+  margin-top: 0;
+}
+
+
+hr {
+  width: 410px; 
+}
+
+
+footer > ul:first-child > li {
+  display: inline-block;
+}
+
+footer > ul:nth-child(2) {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+footer > ul:nth-child(2) > li {
+  color: #aaa;
+  list-style-type: none;
+
 }
