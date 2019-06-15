@@ -3,7 +3,7 @@
 }
 
 body {
-  width: 80%;
+  width: 960px;
   margin: auto;
 }
 
@@ -11,7 +11,7 @@ header {
   height: 100px;
   width: 100%;
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 nav {
@@ -22,12 +22,6 @@ nav {
   border-image-repeat: repeat;
   padding-top: 30px;
 }
-
-/* hr {
-  height: 10px;
-  background: url(./img/hr-img.png) repeat-x 5px 5px;
-  border: none; 
-} */
 
 header > nav > div, header > nav > img  {
   float: left;
@@ -51,9 +45,22 @@ nav ul li {
   float: right;
 }
 
+div h1 {
+  font-family: 'Lobster', cursive;
+}
+
+div.hr {
+  height: 10px;
+  background: url(./img/hr-img.png) repeat-x;
+  background-size: 3px 10px;
+  margin-bottom: 25px;
+}
+
+
 main > h1 {
   font-size: 38px;
   margin: 0 auto;
+  font-family: 'Anton', sans-serif;
 }
 
 main > div > span {
@@ -93,6 +100,7 @@ main > section.recipe > ul {
 main > section.recipe {
   position: relative;
   height: 300px;
+  margin-bottom: 70px;
 }
 
 main > section.recipe > img {
@@ -144,8 +152,12 @@ main > section.blogger > div > h3 {
 }
 
 
+footer > ul {
+  text-align: center;
+}
+
 hr {
-  width: 410px; 
+  width: 430px; 
 }
 
 
